@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raman's Recipe!!</title>
+    <style>
+    
+     *{
+        margin:0;
+        padding:0;
+        
+     }
+
+     .container{
+        width:1350px;
+        height: 700px;
+        overflow-x: none;
+        border:solid black 2px;
+       
+     }
+
+     .navContainer{
+        width:1350px;
+        height:85px;
+        background-color: rgb(243, 151, 151);
+        border-right: solid black 2px;
+        border:solid brown 3px;
+
+     }
+
+     #navlist{
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding:10px;
+        
+        
+     }
+
+     #logo
+     {
+        font-size: 30px;
+        font-weight: 10px;
+     }
+
+    .buttonSize{
+        font-size:20px;
+        font-weight: 10px;
+    }
+
+
+    .footerBox{
+        background: aquamarine;
+        font-size: 17px;
+        font-weight: 10px;
+        text-align:center;
+    }
+     
+    .item1{
+        display:flex;
+        justify-content: space-between;
+       
+        
+   
+
+    }
+    .item2{
+        display:flex;
+        justify-content: space-between;
+   
+
+    }
+
+    .leftbox{
+        display:flex;
+        flex-direction:row;
+        gap:20px;
+    }
+
+    .leftbox h2{
+        color:brown;
+    }
+
+
+    .contentBox{
+        padding:25px;
+    }
+
+    
+    .rightbox img:hover{
+        transform :scale(1.2);
+    }
+
+    .rightbox img{
+       
+        transition-timing-function: linear;
+        transition-duration: 3s;
+        transition-delay:0s ;
+        transition-property: all;
+        
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+     <div class="navContainer">
+      <nav>
+        <ul id="navlist">
+            <li>
+                <p id="logo" >Raman's Recipe</p>
+            </li>
+            <li>
+                <div class="buttonSize">
+                     <a href="#" >Home</a>
+                     <a href="#" >Contact</a>
+                     <a href="#" >About</a>
+            </div>
+        </li>
+        </ul>
+    </nav>
+   </div>
+
+
+
+
+<div class="contentBox">
+    
+    <section>
+      <div class="item1">
+       <div class="leftbox">
+        <h2>Gulab Jamun</h2>
+        <h3>Ingredients</h3>
+        <ul>
+            <li>Paneer</li>
+            <li>pea</li>
+            <li>Masala</li>
+        </ul>
+        <h3>Recipe</h3>
+        <ol>
+            <li>Take Paneer and pea</li>
+            <li>make tomato gravy</li>
+            <li>Deep fry the paneer </li>
+            <li>Pour paneer and pea in the gravy and garnish it with coriander leaves</li>
+            <li>Ready to serve.</li>
+        </ol>
+      </div>
+
+
+      <div class="rightbox">
+       <img src="paneer_ki_sabji.jfif">
+      </div>
+    </div>
+    </section>
+
+
+
+
+<div class="item2">
+ <div class="leftbox">
+   <h2>Samosa</h2>
+
+   <h3>Ingredients</h3>
+   <ul>
+    <li>Maida</li>
+    <li>Potato</li>
+    <li>Masala</li>
+   </ul>
+
+   <h3>Recipe</h3>
+   <ol>
+    <li>Take Maida Paste </li>
+    <li>Put smashed potato on it</li>
+    <li>mix masala well before puting it in the maida paste</li>
+    <li>Deep fry it.</li>
+    <li>Ready to serve.</li>
+   </ol>
+</div>
+
+
+<div class="rightbox">
+  <img src="Samosa.jfif">
+</div>
+</div>
+</div>
+</div>
+
+
+
+<footer>
+<div class="footerBox">
+    Copyright  &copy; Raman's Recipe Pvt Ltd 2023 All Rights Reserved 
+</div>
+</footer>
+
+
+</body>
+</html>
